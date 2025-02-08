@@ -1,0 +1,335 @@
+{
+  "personal": {
+    "name": "Pratheesh Prakash",
+    "title": "Robotteknik & Inbyggda System Ingenjör",
+    "summary": "Jag är en Senior Autonomous Control Systems Engineer med över ett och ett halvt decenniums erfarenhet inom fullstack robotutveckling. Min expertis omfattar både mjukvara och hårdvara för robotar, drönare och IoT, med användning av teknologier som ROS, Python, C och C++.\n\nJag är specialiserad på uppdragsplanerare, snabb prototyping, produktutveckling och mekanisk & elektronisk design. Jag har dokumenterad erfarenhet av att leda tvärvetenskapliga team, lösa komplexa tekniska utmaningar och bygga autonoma mobila robotar (AMR) och drönare. Med en solid grund inom mekatronik, mjukvarudesign och digital tillverkning säkerställer jag effektiv resursanvändning och punktlig projektleverans.",
+    "quote": "Drivs av passion, innovation och en obeveklig strävan efter framsteg, strävar jag efter att skapa lösningar som omdefinierar möjligheter inom inbyggda system, IoT och robotteknik",
+    "contact": {
+      "email": "pratheeshprakash@gmail.com",
+      "github": "github.com/pratheeshprakash",
+      "linkedin": "linkedin.com/in/pratheeshprakash"
+    },
+    "expertise": [
+      {
+        "name": "Robotteknik",
+        "icon": "Bot"
+      },
+      {
+        "name": "STEM",
+        "icon": "Notebook"
+      },
+      {
+        "name": "IoT",
+        "icon": "Wifi"
+      },
+      {
+        "name": "Inbyggda System",
+        "icon": "Cpu"
+      }
+    ]
+  },
+  "sections": {
+    "projectTimeline": "Projekttidslinje",
+    "getInTouch": "Kontakta Oss",
+    "overview": "Översikt",
+    "technologies": "Teknologier",
+    "architecture": "Arkitektur"
+  },
+  "contact": {
+    "name": "Namn",
+    "email": "E-post",
+    "message": "Meddelande",
+    "sendMessage": "Skicka Meddelande",
+    "sending": "Skickar...",
+    "success": "Tack! Ditt meddelande har skickats.",
+    "error": "Tyvärr gick något fel. Försök igen senare."
+  },
+  "projects": [
+    {
+      "id": "autonomous_systems_dashboard",
+      "title": "Autonoma System Dashboard",
+      "year": "2024",
+      "description": "Utvecklade ett Hardware in Loop-system för visualisering av robotik- och sensordata på ett webbaserat gränssnitt, med hjälp av Websockets och JavaScript.",
+      "detailedOverview": "Utvecklade och optimerade ett hardware-in-loop-system genom att utvärdera och förbättra visualiseringsverktyg. Detta innebar att skapa ett proof of concept (POC) med RVIZ för att visualisera systemet och utvärdera Plus One Service-verktyget, utnyttja dess interna JavaScript-funktionalitet, samt utveckla modulära bibliotek för samma, använda WebSockets för att designa en skalbar webvisualiseringsfrontend.\n\nDessutom arkitekterade jag ett webbaserat plugin för att visualisera punktmoln från Ouster Lidar, vilket möjliggör realtidsdatavisualisering för robotkontroller och sensorer. Detta resulterade i en 30% förbättring av effektiviteten vid utveckling, testning och justering av robotapplikationer på Plus One GUIDE (Danfoss), vilket avsevärt påskyndade arbetsflödet och optimerade prestandan.",
+      "architecture": {
+        "type": "image",
+        "url": "/content/images/AutonomousSystemsDashboard.jfif",
+        "description": "Autonoma System Dashboard"
+      },
+      "image": "/content/images/AutonomousSystemsDashboard.jfif",
+      "tech": [
+        "Web Visualiser",
+        "Plus +1 GUIDE",
+        "HIL",
+        "WebSockets",
+        "JS",
+        "Point Cloud",
+        "LIDAR"
+      ]
+    },
+    {
+      "id": "Autonomous_baggage_handler",
+      "title": "Automatiserad Bagagehanteringsrobot",
+      "year": "2024",
+      "description": "Utvecklade ett intelligent robotsystem för automatiserad bagagehantering i flygplatser, med hinderupptäckt och smarta ruttplaneringsfunktioner.",
+      "detailedOverview": "Den automatiserade bagagehanteringsroboten revolutionerar flygplatslogistik. Den kombinerar smart ruttplanering för effektiv ruttning och realtidsspårningsfunktioner. Robotten kan hantera olika bagagestorlekar och vikter och navigera i komplexa flygplatsmiljöer samtidigt som den undviker hinder och mänsklig trafik. Systemet är utformat för att integreras med befintliga flygplatsledningssystem.",
+      "architecture": {
+        "type": "image",
+        "url": "/content/images/AutonomousBaggageHandler.jpg",
+        "description": "Bagagehanteringsrobot"
+      },
+      "image": "/content/images/AutonomousBaggageHandler.jpg",
+      "tech": [
+        "PLUS +1 GUIDE",
+        "LIDAR",
+        "RADAR",
+        "Realtidssystem"
+      ]
+    },
+    {
+      "id": "smart_dose",
+      "title": "Smart Dose",
+      "description": "Designade robotceller med Omron TM5-900-manipulatorer och Schunk EGH 80-gripare för att automatisera och optimera medicinleveransmontering.",
+      "detailedOverview": "Designade och arkitekterade robotceller för flexibel automatisering i monteringslinjen för medicinleverans, med hjälp av tre Omron TM5-900-manipulatorer för att slutföra monteringen på under 2 minuter. Utvecklade flera gripare med Schunk EGH 80 för att säkerställa mekanisk tillförlitlighet och repeterbarhet i processerna.",
+      "year": "2023",
+      "tech": [
+        "ROS2",
+        "Gazebo",
+        "Rviz",
+        "Robotarm"
+      ],
+      "image": "/content/images/SmartDose.jfif",
+      "video":"https://www.youtube.com/embed/LCAMGSXZ9cQ?si=YGt5mFrBfAirVSf_"
+    },
+    {
+      "id": "fill_and_finish",
+      "title": "Fill and Finish",
+      "description": "Designade och utvecklade en robotcell för vialfyllning och kapsling i aseptiska förhållanden, optimerade effektiviteten med Staubli TX260-robot och hybridgripare.",
+      "detailedOverview": "Designade och arkitekterade en fristående robotcell för vialfyllning och kapsling i ISO5 aseptiska förhållanden, med hjälp av två 'Staubli TX260' aseptiska manipulatorer för att fylla 500-600 vialer per timme. Påskyndade utvecklingsprocessen genom regelbundna kurskorrigeringar och mentorsessioner för teamet. Utvecklade en optimerad hybridgripare med 'Schunk EGL-gripare' för att utföra både mekaniska och pneumatiska uppgifter. Simulerade hela systemet i ROS2 Gazebo för validering och prestandabedömning.",
+      "year": "2022",
+      "tech": [
+        "ROS2",
+        "Gazebo",
+        "Rviz",
+        "Robotarm"
+      ],
+      "image": "/content/images/FillandFinish.jfif",
+      "architecture": {
+        "url": "/content/images/FillandFinish.jfif",
+        "description": "Robot fyller medicinflaskor"
+      }
+    },
+    {
+      "id": "nav_app",
+      "title": "NavApp",
+      "description": "Designade och utvecklade ett intuitivt HMI för AMR-robotar, förbättrade datavisualisering, uppgiftssekvensering och integration av flottahantering.",
+      "detailedOverview": "Designade och utvecklade ett Human-Machine Interface (HMI) för en AMR-robot, skalbar för integration i flottahanteringsprogramvara. Ledde UI/UX-teamet i att skapa en intuitiv webbapp för att visualisera data och skicka kommandon till roboten. Förbättrade ROS2DJS och NAV2DJS-bibliotek för att förbättra LIDAR-dataplottning, ruttplottning, skapande av No-Go-zoner och waypoint-navigering. Utvecklade ett anpassat JavaScript-bibliotek för att visualisera robotdata, inklusive karta, batteriprocent och ETA för uppgifter. Skapade en frontend-uppgiftssekvenserare för att skicka uppgifter till roboten och förbättrade kartfunktionaliteten med zoom, panorering och interaktiva markörer för robotvägar och intressanta platser.",
+      "year": "2021",
+      "tech": [
+        "ROS",
+        "JavaScript",
+        "LIDAR",
+        "HMI",
+        "UI/UX"
+      ],
+      "image": "/content/images/NavApp.jfif",
+      "video": "https://www.youtube.com/embed/22wd8N-baMs",
+      "architecture": {
+        "url": "/content/images/NavApp.jfif",
+        "description": "Navigationsapp för AMR-robotar"
+      }
+    },
+    {
+      "id": "n_lock",
+      "title": "N-Lock",
+      "description": "Designade en ultra-låg ström IoT N-Lock-meddelandesenhet med ESP32 och NB-IoT, med 2 års batteritid.",
+      "detailedOverview": "Designade och utvecklade en IoT-baserad N-Lock-meddelandesenhet för att varna användare när en dörr öppnas under icke-arbetstimmar. Enheten har ett ultra-låg ström IoT-kort med ESP32 och U-blocks NB-IoT-kontroller, som arbetar på MQTT-protokollet. Utvecklade en ultra-låg ström strömförsörjning och firmware, vilket möjliggör att enheten kan köras i 2 år på en enda cell. Dessutom skapade jag en app för att konfigurera enheten via Bluetooth för enkel användarinställning.",
+      "year": "2021",
+      "tech":  [
+        "PCB design",
+        "Product Design",
+        "3D Printing",
+        "Analog Electronics",
+        "NB-IoT",
+        "MQTT",
+        "ESP32",
+        "Cloud"
+      ],
+      "image": "/content/images/Nlock.jfif",
+      "video":"https://www.youtube.com/embed/Lf72bwxSK34?si=AVngHR1rHk18lnki"
+    },
+    {
+      "id": "autonomous_robotic_carrier",
+      "title": "Autonom Robotbärare",
+      "description": "Designade och utvecklade en produktionsklar differentialdriven AMR med ROS Noetic-integration, SLAM-algoritmer och avancerad perception med RP-lidar.",
+      "detailedOverview": "Designade och tillverkade en produktionsklar differentialdriven AMR med en lastkapacitet på 200 kg. Arkitekterade och utvecklade mjukvarustacken i ROS Noetic, integrerade och justerade olika SLAM- och planeringsalgoritmer. Ledde utvecklingen av en unik eftergivlig mekanisk design i Fusion360 och utvecklade inbäddad hårdvara och firmware för kinematik och servomotorkontroll. Samordnade tvärteamssamarbeten med produktdesign- och ingenjörsteam. Implementerade robotperception med RP-lidar och ROS-sensorfusion, följt av testning och validering av både hårdvara och mjukvara.",
+      "year": "2020",
+      "tech": [
+        "C++",
+        "ROS",
+        "Motion Planning",
+        "SLAM",
+        "Fusion 360"
+      ],
+      "image": "/content/images/ARC.jpeg",
+      "video":"https://www.youtube.com/embed/hmFgAC3TH_I",
+      "architecture": {
+        "url": "/content/images/ARC2.jpeg",
+        "description": "ARC-koncept"
+      }
+    },
+    {
+      "id": "q_stem",
+      "title": "Q-STEM-kit",
+      "description": "Utvecklade Q STEM-kitet med IoT-anslutning, e-lärningsappintegration och en användarvänlig hårdvarukontakt för förbättrad interaktion och kommunikation.",
+      "detailedOverview": "Utvecklade en förbättrad version av Electrobricks-kitet, Q (2019), med IoT-anslutning och förmågan att ansluta till en e-lärningsapp för sömlös hårdvaru-/mjukvaruinteraktion. Designade en hårdvarukontakt inspirerad av MagSafe-kontakten för att göra det enklare för mindre händer att använda. Dessutom utvecklade jag ett protokollager på det seriella kommunikationslagret för att möjliggöra att klossarna kan bearbeta information och kommunicera med huvudkontrollen.",
+      "year": "2019",
+      "tech": [
+        "STEM",
+        "E-Learning",
+        "IOT"
+      ],
+      "image": "/content/images/Q-Stem.jpg",
+      "architecture": {
+        "url": "/content/images/Q-Stem.jpg",
+        "description": "Q STEM-kit med IoT-anslutning"
+      }
+    },
+    {
+      "id": "humanoid_intended_for_robotics_operation",
+      "title": "Humanoid avsedd för robotikoperation",
+      "description": "Designade och utvecklade en humanoid robot med ROS Kinetic, med en anpassad mekanumdrift, teleoperation och ett användargränssnitt för att visa ansiktsuttryck.",
+      "detailedOverview": "Designade och byggde en humanoid robot för kundinteraktioner, arkitekterade mjukvarustacken i ROS Kinetic. Utvecklade ett mekanumdrivsystem med egenbyggda mekanumhjul och industriella servon. Ledde ett design- och tillverkningsteam för att skapa en unik kropp av kompositmaterial, samtidigt som jag förbättrade CAD-till-komposit-tillverkningsprocessen. Utvecklade inbäddad hårdvara och firmware för motorkontroll, kinematik och sensordataavläsning. Integrerade en ROS-baserad rörelsestack med en joystickbaserad teleoperationsnod för holonomisk rörelse och utvecklade ett ROS-baserat användargränssnitt för att visa ansikten med känslor på robotens skärm.",
+      "year": "2018",
+      "tech": [
+        "ROS",
+        "CAD",
+        "3D Printing",
+        "Mecanum Drive"
+      ],
+      "image": "/content/images/HIRO.jpg",
+      "architecture": {
+        "url": "/content/images/HIRO2.jpg",
+        "description": "Humanoid robot"
+      }
+    },
+    {
+      "id": "soft_switch",
+      "title": "SoftSwitch",
+      "description": "Designade ett IoT-ekosystem med MQTT-protokoll, integrerade strömbrytare, sensorer och röststyrning via Amazon Alexa, med hjälp av ESP32 och solid-state-hårdvara för avancerad funktionalitet.",
+      "detailedOverview": "Designade och utvecklade ett IoT-hårdvaruekosystem baserat på MQTT-protokollet, med strömbrytare, regulatorer, sensorer och klockor kompatibla med Home Assistant. Integrerade Home Assistant med Amazon Alexa för röststyrning. Designade ett kretskort med ESP32 och solid-state-hårdvara (BT139), som inkluderar funktionalitet för touchkontroller, belysning för touchknappar, AC-omkoppling med dimning och tyst drift.",
+      "year": "2018",
+      "tech": [
+        "IoT",
+        "MQTT",
+        "ESP32",
+        "Alexa"
+      ],
+      "image": "/content/images/SoftSwitch.jpg",
+      "video":"https://www.youtube.com/embed/EWqe7koZX2U?si=QzZ7SzSNxNR9xKCB"      
+    },
+    {
+      "id": "quasi_direct_drive",
+      "title": "Quasi Direct Drive Actuator",
+      "description": "Utvecklade en högmoment BLDC-servomotor med integrerad drivrutin och ESP32-mikrokontroller, vilket minskar komplexiteten i AMR-design genom sensorlös feedback.",
+      "detailedOverview": "Utvecklade en BLDC-servomotor med en integrerad drivrutin för robotapplikationer, vilket möjliggör högt moment och minskar komplexiteten i designen av autonoma mobila robotar (AMR). Systemet designades med ESP32-mikrokontroller, inspirerad av den open-source Moteus Controller. Dessutom utvärderades konceptet med sensorlös feedback för att ytterligare minska systemkomplexiteten.",
+      "year": "2018",
+      "tech": [
+        "BLDC",
+        "Sensorless Driver",
+        "ESP32"
+      ],
+      "image": "/content/images/QDD.jpg",
+      "architecture": {
+        "url": "/content/images/QDD.jpg",
+        "description": "QDD BLDC integrerad motor"
+      }
+    },
+    {
+      "id": "thing_z",
+      "title": "ThingZ",
+      "description": "Designade ett modulärt IoT-moderkort med ESP32 för AWS-molnkommunikation, skalbar firmware och en Wi-Fi-konfigurerbar app för sömlös enhetshantering.",
+      "detailedOverview": "Designade ett modulärt IoT-moderkort med ESP32 för att kommunicera med en kunds AWS-molnplattform via MQTT. Utvecklade skalbar firmware för att stödja flera kundprodukter och arkitekterade systemdesignen för hårdvara, mjukvara och användargränssnitt (app). Appen hade möjlighet att konfigurera enheter via Wi-Fi.",
+      "year": "2017",
+      "tech": [
+        "IoT",
+        "MQTT",
+        "ESP32",
+        "Cloud",
+        "Connected App",
+        "Wi-Fi"
+      ],
+      "image": "/content/images/ThingZ.png",
+      "architecture": {
+        "url": "/content/images/ThingZ.png",
+        "description": "IoT-plattform"
+      }
+    },
+    {
+      "id": "electrobricks_stem",
+      "title": "Electrobricks STEM Kit",
+      "description": "Designade och utvecklade Electrobricks DIY STEM-kit, vilket möjliggjorde statlig implementering av projektet 'Electronics at School' i över 3000 skolor i Kerala.",
+      "detailedOverview": "Designade och utvecklade ett DIY STEM-kit, Electrobricks, för att hjälpa till att förklara komplexa vetenskapliga koncept på ett konkret sätt. Arkitekterade kitet med färgkodade komponenter för enklare förståelse och gjorde det modulärt och pluggbar för att möjliggöra oändliga kombinationer. Designat med endast analog elektronik, marknadsfördes kitet till regeringen i Kerala, vilket ledde till framgångsrik implementering av projektet 'Electronics at School' i över 3000 skolor i hela delstaten. Genomförde lärarutbildning för 1200 personalmedlemmar och tillämpade Design for Manufacturing (DFM) tekniker för att producera 3700 kit inhemskt i Indien inom en kort tidsram.",
+      "year": "2015",
+      "tech": [
+        "STEM",
+        "DFM",
+        "Analog Electronics"
+      ],
+      "image": "/content/images/ElectronicsSchool.jpg",
+      "video":"https://www.youtube.com/embed/KZ98_yb5xlo?si=tIAAl8QqdgTkaxf0",
+      "architecture": {
+        "url": "/content/images/electronicsSchoolArch.jpg",
+        "description": "STEM-kit"
+      }
+    },
+    {
+      "id": "induino_x",
+      "title": "InduinoX - Open source mikrokontrollerkort",
+      "description": "Utvecklade ett Arduino-baserat mikrokontrollerträningskort med integrerade kringutrustningar (IR, RGB LED, LDR, RTC) och motsvarande träningsmoduler som täcker viktiga kommunikationsprotokoll och koncept.",
+      "detailedOverview": "Detta projekt innebar utveckling av ett mikrokontrollerträningskort centrerat kring Arduino-plattformen. Kortet använder Atmega 328-mikrokontrollern och en CH430 USB till UART-chip för kommunikation. För att förbättra dess träningsmöjligheter, integrerar kortet flera kringutrustningar, inklusive en IR-mottagare (TSOP0038), en RGB LED, en LDR (ljusberoende resistor) och en realtidsklocka (RTC). Tillsammans med hårdvaruutvecklingen skapades träningsmoduler för att lära ut grundläggande koncept som UART-kommunikation, IR (specifikt RC5-protokoll) kommunikation, I2C-kommunikation, RTC-användning och färgblandning med RGB LED.",
+      "year": "2011",
+      "tech": [
+        "Arduino",
+        "I2C",
+        "UART",
+        "RTC",
+        "IR"
+      ],
+      "image": "/content/images/InduinoX.JPG",
+      "architecture": {
+        "url": "/content/images/InduinoX.JPG",
+        "description": "STEM-kit"
+      }
+    },
+    {
+      "id": "ri_duino",
+      "title": "RIDuino - Open source mikrokontrollerkort",
+      "description": "Designade och utvecklade ett Arduino-baserat kort med dotterkort för LCD/knappgränssnitt och robotik, tillsammans med träningsmoduler som täcker displayteknologier, motorstyrning och sensorintegration.",
+      "detailedOverview": "Detta projekt fokuserade på att designa och utveckla ett internt Arduino-kompatibelt kort med hjälp av Atmega 328-mikrokontrollern och en kostnadseffektiv CP2102 USB till UART-kontroller. För att utöka dess funktionalitet skapades ett dotterkort med en LCD och knappar, vilket möjliggjorde utveckling av spel och fjärrkontrollapplikationer. Motsvarande träningsmoduler utvecklades för att täcka viktiga koncept som LCD-gränssnitt, skiftregister (74HC595), LED-matrisdisplayer och multiplexingtekniker. Dessutom designades ett robotikfokuserat dotterkort som integrerade L298 och L293 motorstyrningar. Detta kompletterades med robotikträningsmoduler som utforskade motorstyrning, sensorintegration (IR och Sonar) och kontrollalgoritmer, inklusive PID-kontroll.",
+      "year": "2010",
+      "tech": [
+        "Arduino",
+        "LCD",
+        "Motor Driver",
+        "Sensor",
+        "Robotics"
+      ],
+      "image": "/content/images/RIDuino.jpg",
+      "architecture": {
+        "url": "/content/images/RIDuino.jpg",
+        "description": "RIDuino Robotik Kit"        
+      }
+    }
+  ],
+  "seo": {
+    "title": "Pratheesh Prakash - Robotteknik & Inbyggda System Ingenjör",
+    "description": "Pratheesh Prakash - Robotteknik & Inbyggda System Ingenjör Portfolio",
+    "keywords": [
+      "robotteknik",
+      "inbyggda system",
+      "hårdvarudesign",
+      "ingenjör portfolio"
+    ]
+  }
+}
