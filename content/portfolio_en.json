@@ -44,9 +44,10 @@
     "success": "Thank you! Your message has been sent successfully.",
     "error": "Sorry, something went wrong. Please try again later."
   },
-  "projects": [
+  "timeline": [
     {
       "id": "autonomous_systems_dashboard",
+      "type": "project",
       "title": "Autonomous Systems Dashboard",
       "year": "2024",
       "description": "Developed a Hardware in Loop system for Visualisation of Robotics and sensors data on a web based interface, using Websockets and JavaScript.",
@@ -69,6 +70,7 @@
     },
     {
       "id": "Autonomous_baggage_handler",
+      "type": "project",
       "title": "Automated Baggage Handling Robot",
       "year": "2024",
       "description": "Developed an intelligent robotic system for automated baggage handling in airports, featuring obstacle detection and smart routing capabilities.",
@@ -87,7 +89,17 @@
       ]
     },
     {
+      "id": "milestone_2023",
+      "type": "milestone",
+      "year": "2023",
+      "title": "Senior Autonomous Control Systems Engineer",
+      "icon": "bot",
+      "image": "/content/images/milestone-2024.jpg",
+      "description": "Leading the development of autonomous control systems for next-generation Off-Highway Autonomy applications at Danfoss Autonomy."
+    },
+    {
       "id": "smart_dose",
+      "type": "project",
       "title": "Smart Dose",
       "description": "Designed robotic cells with Omron TM5-900 manipulators and Schunk EGH 80 grippers to automate and optimize medicine delivery assembly.",
       "detailedOverview": "Architechted and robotic cells for flexible automation in the assembly line of medicine delivery, utilizing three Omron TM5-900 manipulators to complete assembly in under 2 minutes. Developed multiple grippers using Schunk EGH 80 to ensure mechanical reliability and repeatability in the processes.",
@@ -103,6 +115,7 @@
     },
     {
       "id": "fill_and_finish",
+      "type": "project",
       "title": "Fill and Finish",
       "description": "Designed and developed a robotic cell for vial filling and capping in aseptic conditions, optimizing efficiency with Staubli TX260 Robot and Hybrid Gripper.",
       "detailedOverview": "Designed and architected a standalone robotic cell for vial filling and capping in ISO5 aseptic conditions, utilizing two ‘Staubli TX260’ aseptic manipulators to fill 500-600 vials per hour. Accelerated the development process through regular course corrections and mentoring sessions for the team. Developed an optimized hybrid gripper using the ‘Schunk EGL gripper’ to perform both mechanical and pneumatic tasks. Simulated the entire system in ROS2 Gazebo for validation and performance assessment.",
@@ -120,7 +133,17 @@
       }
     },
     {
+      "id": "milestone_2021",
+      "type": "milestone",
+      "year": "2021",
+      "title": "Director of Robotics",
+      "icon": "bot",
+      "image": "/content/images/milestone-2024.jpg",
+      "description": "Appointed as the Director of Robotics at Simelabs, leading the development of cutting-edge robotics solutions for industrial automation."
+    },
+    {
       "id": "nav_app",
+      "type": "project",
       "title": "NavApp",
       "description": "Designed and developed an intuitive HMI for the in-house AMR robots ARC(Autonomous Robotic Carrier), enhancing data visualization, task sequencing, and fleet management integration.",
       "detailedOverview": "Designed and developed a Human-Machine Interface (HMI) for an AMR robot, scalable for integration into fleet management software. Led the UI/UX team in creating an intuitive web app for visualizing data and sending commands to the robot. Improved ROS2DJS and NAV2DJS libraries to enhance LIDAR data plotting, path plotting, No-Go zone creation, and waypoint navigation. Developed a custom JavaScript library for visualizing robot data, including map, battery percentage, and ETA for tasks. Created a front-end task sequencer for sending tasks to the robot and improved map functionality with zoom, pan, and interactive markers for robot paths and points of interest.",
@@ -139,6 +162,7 @@
     },
     {
       "id": "n_lock",
+      "type": "project",
       "title": "N-Lock",
       "description": "Designed an ultra-low power IoT Notification Device which worked trough the mobile network with ESP32 and U-blocks NB-IoT module, featuring 2-year battery life.",
       "detailedOverview": "Designed and developed an IoT-based Notification Device to alert users when a door is opened during non-working hours. The device features an ultra-low power IoT board using ESP32 and U-blocks NB-IoT module, operating on the MQTT protocol. Developed ultra-low power power-supply and firmware, enabling the device to run for 2 years on a single cell. Additionally, created an app to configure the device via Bluetooth for easy user setup.",
@@ -158,6 +182,7 @@
     },
     {
       "id": "autonomous_robotic_carrier",
+      "type": "project",
       "title": "Autonomous Robotic Carrier",
       "description": "Designed and developed a production-ready differential drive AMR with ROS Noetic integration, SLAM algorithms, and advanced perception using RP-lidar indigenously.",
       "detailedOverview": "Designed and manufactured a production-ready differential drive AMR with a 200kg payload capacity. Design and manufactured the mechanical and enclosure in CAD. Developed the software stack in ROS Noetic, integrating and tuning various SLAM and planning algorithms. Led the development of a unique compliant mechanical design in Fusion360 and developed embedded hardware and firmware for kinematics and servo motor control. Coordinated cross-team collaborations with product design and engineering teams. Implemented robot perception using RP-lidar and ROS sensor fusion, followed by testing and validation of both hardware and software.",
@@ -178,6 +203,7 @@
     },
     {
       "id": "q_stem",
+      "type": "project",
       "title": "Q-STEM kit",
       "description": "Developed the Q STEM kit with IoT connectivity, e-learning app integration, and a user-friendly hardware connector for improved interaction and communication.",
       "detailedOverview": "Developed an enhanced version of the Electrobricks kit, Q (2019), with IoT connectivity and the ability to connect to an e-learning app for seamless hardware/software interaction. Designed a hardware connector inspired by the MagSafe connector to make it easier for smaller hands to use. Additionally, developed a protocol layer on the serial communication layer to enable the bricks to process information and communicate with the main controller.",
@@ -195,6 +221,7 @@
     },
     {
       "id": "robotics_park_concept_note",
+      "type": "project",
       "title": "Robotics Park Concept Note",
       "description": "Proposed a concept for a Robotics Tecnology Park in Kerala, India, to promote Robotics and Automation in the state.",
       "detailedOverview": "Proposed a concept  for a Robotics Technology Park in Kerala, India, to promote robotics and automation in the state. The park would serve as a hub for research, development, and innovation in robotics and automation, providing a platform for collaboration between industry, academia, and government. The park would also offer training programs, workshops, and incubation facilities for startups in the robotics sector, fostering a culture of innovation and entrepreneurship in the state.",
@@ -211,9 +238,8 @@
         "manufacturing",
         "IoT",
         "AI"
-
       ],
-      "image":  "/content/images/RoboPark1.png",
+      "image": "/content/images/RoboPark.jpg",
       "architecture": {
         "url": [
           "/content/images/RoboPark1.png",
@@ -230,6 +256,7 @@
     },
     {
       "id": "humanoid_intended_for_robotics_operation",
+      "type": "project",
       "title": "Humanoid Intended for Robotics Operation",
       "description": "Designed and developed a humanoid robot with ROS Kinetic, featuring a custom mecanum drive, and a UI for displaying facial emotions.",
       "detailedOverview": "Designed and built a humanoid robot for customer interactions, architecting the software stack in ROS Kinetic. Developed a mecanum drive system using mecanum wheels (Designed In-house) and industrial servos. Led a design and manufacturing team to create a unique composite material body, while improving the CAD-to-composite manufacturing process. Developed embedded hardware and firmware for motor control, kinematics, and sensor data reading. Integrated a ROS-based locomotion stack for holonomic movement and developed a ROS-based UI to display faces with emotions on the robot’s screen.",
@@ -242,7 +269,7 @@
         "Kinematic Controller"
       ],
       "image": "/content/images/HIRO.jpg",
-      "video":"https://www.youtube.com/embed/zzbYfgtLI44?si=Mciy-DcRvOIVdyTa", 
+      "video": "https://www.youtube.com/embed/zzbYfgtLI44?si=Mciy-DcRvOIVdyTa",
       "architecture": {
         "url": "/content/images/HIRO2.jpg",
         "description": "Humanoid robot"
@@ -250,6 +277,7 @@
     },
     {
       "id": "soft_switch",
+      "type": "project",
       "title": "SoftSwitch",
       "description": "Designed an IoT ecosystem with MQTT protocol, integrating switches, sensors, and voice control via Amazon Alexa, using ESP32 and solid-state hardware for silent functionality.",
       "detailedOverview": "Designed and developed an IoT hardware ecosystem based on the MQTT protocol, featuring switches, regulators, sensors, and bells compatible with Home Assistant. Integrated Home Assistant with Amazon Alexa for voice control. Designed a circuit board using ESP32 and solid-state hardware (BT139), incorporating functionality for touch controls, lighting for touch buttons, AC switching with dimming, and silent operation.",
@@ -266,6 +294,7 @@
     },
     {
       "id": "quasi_direct_drive",
+      "type": "project",
       "title": "Quasi Direct Drive Actuator",
       "description": "Developed a high-torque BLDC servo motor with integrated driver and ESP32 microcontroller, reducing complexity in AMR design through sensor-less feedback.",
       "detailedOverview": "Developed a BLDC servo motor with an integrated driver for robotics applications, enabling high torque and reducing complexity in Autonomous Mobile Robot (AMR) design. The system was designed using the ESP32 microcontroller, inspired by the open-source Moteus Controller. Additionally, the concept of sensor-less feedback was evaluated to further reduce system complexity.",
@@ -283,6 +312,7 @@
     },
     {
       "id": "thing_z",
+      "type": "project",
       "title": "ThingZ",
       "description": "Designed a modular IoT motherboard with ESP32 for AWS cloud communication, scalable firmware, and a Wi-Fi configurable app for seamless device management.",
       "detailedOverview": "Designed a modular IoT motherboard using ESP32 to communicate with a client's AWS cloud platform via MQTT. Developed scalable firmware to support multiple customer products and architected the system design for hardware, software, and user interface (app). The app featured the ability to configure devices via Wi-Fi.",
@@ -303,6 +333,7 @@
     },
     {
       "id": "electrobricks_stem",
+      "type": "project",
       "title": "Electrobricks STEM Kit",
       "description": "Designed and developed the Electrobricks DIY STEM kit, enabling the statewide implementation of the ‘Electronics at School’ project across 3000+ schools in Kerala.",
       "detailedOverview": "Designed and developed a DIY STEM kit, Electrobricks, to help explain complex scientific concepts in a tangible way. Architected the kit with color-coded components for easier understanding and made it modular and pluggable to allow for infinite combinations. Designed using only analog electronics, the kit was marketed to the Government of Kerala, leading to the successful implementation of the ‘Electronics at School’ project in over 3000 schools statewide. Conducted teacher training for 1200 staff members and applied Design for Manufacturing (DFM) techniques to produce 3700 kits indigenously in India within a short time frame.",
@@ -320,7 +351,17 @@
       }
     },
     {
+      "id": "milestone_2015",
+      "type": "milestone",
+      "year": "2015",
+      "title": "Electronics at School Project",
+      "icon": "graduation-cap",
+      "image": "/content/images/ElectronicsSchool.jpg",
+      "description": "Successfully implemented the 'Electronics at School' project across 3000+ schools in Kerala, impacting thousands of students."
+    },
+    {
       "id": "induino_x",
+      "type": "project",
       "title": "InduinoX - Open source microcontroller board",
       "description": "Developed an Arduino-based microcontroller training board with integrated peripherals (IR, RGB LED, LDR, RTC) and corresponding training modules covering key communication protocols and concepts.",
       "detailedOverview": "This project involved the development of a microcontroller training board centered around the Arduino platform. The board utilizes the Atmega 328 microcontroller and a CH430 USB to UART chip for communication. To enhance its training capabilities, the board incorporates several peripherals, including an IR receiver (TSOP0038), an RGB LED, an LDR (light-dependent resistor), and a Real-Time Clock (RTC). Accompanying the hardware development, training modules were created to teach fundamental concepts such as UART communication, IR (specifically RC5 protocol) communication, I2C communication, RTC usage, and color mixing with the RGB LED.",
@@ -340,6 +381,7 @@
     },
     {
       "id": "ri_duino",
+      "type": "project",
       "title": "RIDuino - Open source microcontroller board",
       "description": "Designed and developed an Arduino-based board with daughter boards for LCD/button interface and robotics, along with training modules covering display technologies, motor control, and sensor integration.",
       "detailedOverview": "This project focused on designing and developing an in-house Arduino-compatible board using the Atmega 328 microcontroller and a cost-effective CP2102 USB to UART controller. To expand its functionality, a daughter board was created featuring an LCD and buttons, enabling the development of games and remote control applications. Corresponding training modules were developed to cover essential concepts like LCD interfacing, shift registers (74HC595), LED matrix displays, and multiplexing techniques. Furthermore, a robotics-focused daughter board was designed, incorporating L298 and L293 motor drivers. This was complemented by robotics training modules that explored motor driving, sensor integration (IR and Sonar), and control algorithms, including PID control.",
@@ -356,6 +398,15 @@
         "url": "/content/images/RIDuino.jpg",
         "description": "RIDuino Robotics Kit"
       }
+    },
+    {
+      "id": "milestone_2010",
+      "type": "milestone",
+      "year": "2010",
+      "title": "Founder & CTO",
+      "icon": "bot",
+      "image": "/content/images/milestone-2020.jpg",
+      "description": "Founded Robo Inventions, focusing on developing innovative robotic solutions for industrial automation and IoT applications."
     }
   ],
   "seo": {
