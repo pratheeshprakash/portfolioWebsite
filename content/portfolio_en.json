@@ -25,6 +25,10 @@
       {
         "name": "Embedded",
         "icon": "Cpu"
+      },
+      {
+        "name": "Drones",
+        "icon": "Send"
       }
     ]
   },
@@ -92,26 +96,9 @@
       "id": "milestone_2023",
       "type": "milestone",
       "year": "2023",
-      "title": "Senior Autonomous Control Systems Engineer",
-      "icon": "bot",
-      "image": "/content/images/milestone-2024.jpg",
-      "description": "Leading the development of autonomous control systems for next-generation Off-Highway Autonomy applications at Danfoss Autonomy."
-    },
-    {
-      "id": "smart_dose",
-      "type": "project",
-      "title": "Smart Dose",
-      "description": "Designed robotic cells with Omron TM5-900 manipulators and Schunk EGH 80 grippers to automate and optimize medicine delivery assembly.",
-      "detailedOverview": "Architechted and robotic cells for flexible automation in the assembly line of medicine delivery, utilizing three Omron TM5-900 manipulators to complete assembly in under 2 minutes. Developed multiple grippers using Schunk EGH 80 to ensure mechanical reliability and repeatability in the processes.",
-      "year": "2023",
-      "tech": [
-        "ROS2",
-        "Gazebo",
-        "Rviz",
-        "Robotic Arm"
-      ],
-      "image": "/content/images/SmartDose.jfif",
-      "video": "https://www.youtube.com/embed/LCAMGSXZ9cQ?si=YGt5mFrBfAirVSf_"
+      "title": "Joined Danfoss & moved to Denmark",
+      "icon": "rocket",
+      "description": "Joined Danfoss Power Solutions Aps. as Senior Autonomous Control Systems Engineer. Developing autonomous control systems for next-generation Off-Highway Autonomy applications at Danfoss Autonomy."
     },
     {
       "id": "fill_and_finish",
@@ -119,7 +106,7 @@
       "title": "Fill and Finish",
       "description": "Designed and developed a robotic cell for vial filling and capping in aseptic conditions, optimizing efficiency with Staubli TX260 Robot and Hybrid Gripper.",
       "detailedOverview": "Designed and architected a standalone robotic cell for vial filling and capping in ISO5 aseptic conditions, utilizing two ‘Staubli TX260’ aseptic manipulators to fill 500-600 vials per hour. Accelerated the development process through regular course corrections and mentoring sessions for the team. Developed an optimized hybrid gripper using the ‘Schunk EGL gripper’ to perform both mechanical and pneumatic tasks. Simulated the entire system in ROS2 Gazebo for validation and performance assessment.",
-      "year": "2022",
+      "year": "2023",
       "tech": [
         "ROS2",
         "Gazebo",
@@ -133,12 +120,27 @@
       }
     },
     {
+      "id": "smart_dose",
+      "type": "project",
+      "title": "Smart Dose",
+      "description": "Designed robotic cells with Omron TM5-900 manipulators and Schunk EGH 80 grippers to automate and optimize medicine delivery assembly.",
+      "detailedOverview": "Architechted and robotic cells for flexible automation in the assembly line of medicine delivery, utilizing three Omron TM5-900 manipulators to complete assembly in under 2 minutes. Developed multiple grippers using Schunk EGH 80 to ensure mechanical reliability and repeatability in the processes.",
+      "year": "2022",
+      "tech": [
+        "ROS2",
+        "Gazebo",
+        "Rviz",
+        "Robotic Arm"
+      ],
+      "image": "/content/images/SmartDose.jfif",
+      "video": "https://www.youtube.com/embed/LCAMGSXZ9cQ?si=YGt5mFrBfAirVSf_"
+    },
+    {
       "id": "milestone_2021",
       "type": "milestone",
       "year": "2021",
-      "title": "Director of Robotics",
-      "icon": "bot",
-      "image": "/content/images/milestone-2024.jpg",
+      "title": "Joined Simelabs",
+      "icon": "rocket",
       "description": "Appointed as the Director of Robotics at Simelabs, leading the development of cutting-edge robotics solutions for industrial automation."
     },
     {
@@ -360,6 +362,15 @@
       "description": "Successfully implemented the 'Electronics at School' project across 3000+ schools in Kerala, impacting thousands of students."
     },
     {
+      "id": "milestone_2014",
+      "type": "milestone",
+      "year": "2004",
+      "title": "Drone demo",
+      "icon": "send",
+      "video": "https://www.youtube.com/embed/UWRlwF4592g?si=XVzADQqDz2Jhgx4c",
+      "description": "Conducted a drone demo at GITAM university, showcasing the capabilities of drones and their applications in various industries."
+    },
+    {
       "id": "induino_x",
       "type": "project",
       "title": "InduinoX - Open source microcontroller board",
@@ -404,9 +415,54 @@
       "type": "milestone",
       "year": "2010",
       "title": "Founder & CTO",
-      "icon": "bot",
-      "image": "/content/images/milestone-2020.jpg",
+      "icon": "rocket",
+      "image": "/content/images/robo_inventions_logo.jpg",
       "description": "Founded Robo Inventions, focusing on developing innovative robotic solutions for industrial automation and IoT applications."
+    },
+    {
+      "id": "milestone_2009_Nov",
+      "type": "milestone",
+      "year": "2009 Nov",
+      "title": "Robotics exhibition at alma mater",
+      "icon": "bot",
+      "video": "https://www.youtube.com/embed/YL5r4mIzREA?si=P3COGik2oeY1FE20",
+      "description": "Organized a robotics exhibition at my alma mater(Modern School) by mentoring the students from the robotics club I had setup earlier, showcasing various projects and inspiring students to pursue robotics and embedded systems."
+    },
+    {
+      "id": "milestone_2009_Jan",
+      "type": "milestone",
+      "year": "2009 Jan",
+      "title": "Built and participated in Micromouse competition",
+      "icon": "bot",
+      "image": "https://www.youtube.com/embed/B5CSZqDBZtI?si=EN9jvO0ffucglc8T",
+      "description": "Buit a micromouse from scratch including HW, FW and Mechanical, participated in the Micromouse competition held at IIT Bombay and placed 6th out of 99 teams that participated. This was my second try at the competition."
+    },
+    {
+      "id": "milestone_2006",
+      "type": "milestone",
+      "year": "2004",
+      "title": "Built first embedded project",
+      "icon": "binary",
+      "video": "https://www.youtube.com/embed/RI1cveqCuuE?si=Vhjblday1Goq5lN0",
+      "description": "Started learning microcontrollers and built a POV clock using PIC 18f64 microcontroller, following an online blog from Bob Blick."
+    },
+    {
+      "id": "milestone_2004",
+      "type": "milestone",
+      "year": "2004",
+      "title": "Founded the school's robotics club",
+      "icon": "rocket",
+      "image": "/content/images/milestone-2020.jpg",
+      "description": "Founded the robotics club of Modern School Delhi, training peers and junior on concepts of embedded systems, control systems and robotics."
+    },
+    {
+      "id": "milestone_2001",
+      "type": "milestone",
+      "year": "2001",
+      "title": "Build my first robot",
+      "icon": "briefcase",
+      "image": "/content/images/milestone-2020.jpg",
+      "description": "Ventured into robotics by building the first robot using logic gates, LM324 Quad Buffer and IR Photodiodes, at the age of 14, sparking a lifelong passion for robotics and embedded systems."
     }
   ],
   "seo": {
