@@ -197,10 +197,13 @@
         "SLAM",
         "Fusion 360"
       ],
-      "image": "/content/images/ARC.jpeg",
+      "image": "/content/images/ARC1.png",
       "video": "https://www.youtube.com/embed/u5GynQwjHwM",
       "architecture": {
-        "url": "/content/images/ARC2.jpeg",
+        "url": [
+          "/content/images/ARC.jpeg",
+          "/content/images/ARC2.jpeg"
+        ],
         "description": "ARC Concept"
       }
     },
