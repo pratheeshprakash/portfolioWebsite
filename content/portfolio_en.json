@@ -477,7 +477,6 @@
       "year": "2004",
       "title": "Founded the school's robotics club",
       "icon": "rocket",
-      "image": "/content/images/milestone-2020.jpg",
       "description": "Founded the robotics club of Modern School Delhi, training peers and junior on concepts of embedded systems, control systems and robotics."
     },
     {
@@ -486,7 +485,6 @@
       "year": "2001",
       "title": "Build my first robot",
       "icon": "briefcase",
-      "image": "/content/images/milestone-2020.jpg",
       "description": "Ventured into robotics by building the first robot using logic gates, LM324 Quad Buffer and IR Photodiodes, at the age of 14, sparking a lifelong passion for robotics and embedded systems."
     }
   ],
@@ -494,10 +492,28 @@
     "title": "Pratheesh Prakash - Robotics & Embedded Systems Engineer",
     "description": "Pratheesh Prakash - Robotics & Embedded Systems Engineer Portfolio",
     "keywords": [
+      "robotics engineer",
+      "control systems engineer",
+      "autonomous control systems engineer",
+      "motion planning engineer",
+      
+      "senior robotics engineer",
+      "senior control systems engineer",
+      "senior autonomous control systems engineer",
+      "senior motions planning engineer",
+
+      "principal robotics engineer",
+      "principal control systems engineer",
+      "principal autonomous control systems engineer",
+      "principal motion planning engineer",
+      
       "robotics",
       "embedded systems",
       "hardware design",
-      "engineering portfolio"
+
+      "engineering portfolio",
+      "robotics portfolio",
+      "embedded systems portfolio"
     ]
   }
 }
