@@ -208,6 +208,14 @@
       }
     },
     {
+      "id": "milestone_2020_jan",
+      "type": "milestone",
+      "year": "2020 Jan",
+      "title": "BRINC Mentor",
+      "icon": "heart-handshake",
+      "description": "Provided a BRINC mentorship  Session at Kerala Startup Mission. As a mentor for BRINC, a global venture accelerator, I provided expert guidance to early-stage hardware and IoT startups. During a session at the BRINC office, I offered specialized advice in electronics consultation and robotics, helping startups refine their products and scale their operations.\n\nAdditionally, I learned about BRINC’s partnership with Kerala Startup Mission to accelerate IoT and Hardware startups in India, offering funding up to USD 250,000. I also engaged with portfolio companies like Nava, Vacus, Tapfrsh, and Evelabs, which are developing innovative solutions across various sectors.\n\nThis mentorship opportunity allowed me to share my expertise, support startup growth, and contribute to the hardware ecosystem in India."
+    },
+    {
       "id": "q_stem",
       "type": "project",
       "title": "Q-STEM kit",
