@@ -196,7 +196,7 @@
     {
       "id": "autonomous_robotic_carrier",
       "type": "project",
-      "title": "Autonomous Robotic Carrier",
+      "title": "ARC - Autonomous Robotic Carrier",
       "description": "Designed and developed a production-ready differential drive AMR with ROS Noetic integration, SLAM algorithms, and advanced perception using RP-lidar indigenously.",
       "detailedOverview": "Designed and manufactured a production-ready differential drive AMR with a 200kg payload capacity. Design and manufactured the mechanical and enclosure in CAD. Developed the software stack in ROS Noetic, integrating and tuning various SLAM and planning algorithms. Led the development of a unique compliant mechanical design in Fusion360 and developed embedded hardware and firmware for kinematics and servo motor control. Coordinated cross-team collaborations with product design and engineering teams. Implemented robot perception using RP-lidar and ROS sensor fusion, followed by testing and validation of both hardware and software.",
       "year": "2020",
@@ -250,7 +250,7 @@
     {
       "id": "robotics_park_concept_note",
       "type": "project",
-      "title": "Robotics Park Concept Note",
+      "title": "Robotics Park Concept Note - Enterprise project",
       "description": "Proposed a concept for a Robotics Tecnology Park in Kerala, India, to promote Robotics and Automation in the state.",
       "detailedOverview": "Proposed a concept  for a Robotics Technology Park in Kerala, India, to promote robotics and automation in the state. The park would serve as a hub for research, development, and innovation in robotics and automation, providing a platform for collaboration between industry, academia, and government. The park would also offer training programs, workshops, and incubation facilities for startups in the robotics sector, fostering a culture of innovation and entrepreneurship in the state.",
       "year": "2018",
@@ -285,7 +285,7 @@
     {
       "id": "humanoid_intended_for_robotics_operation",
       "type": "project",
-      "title": "Humanoid Intended for Robotics Operation",
+      "title": "HIRO - Humanoid Intended for Robotics Operation",
       "description": "Designed and developed a humanoid robot with ROS Kinetic, featuring a custom mecanum drive, and a UI for displaying facial emotions.",
       "detailedOverview": "Designed and built a humanoid robot for customer interactions, architecting the software stack in ROS Kinetic. Developed a mecanum drive system using mecanum wheels (Designed In-house) and industrial servos. Led a design and manufacturing team to create a unique composite material body, while improving the CAD-to-composite manufacturing process. Developed embedded hardware and firmware for motor control, kinematics, and sensor data reading. Integrated a ROS-based locomotion stack for holonomic movement and developed a ROS-based UI to display faces with emotions on the robot’s screen.",
       "year": "2018",
@@ -403,7 +403,7 @@
       "id": "milestone_2015",
       "type": "milestone",
       "year": "2015",
-      "title": "Electronics at School Project",
+      "title": "Electronics at School - Enterprise project",
       "icon": "graduation-cap",
       "image": "/content/images/ElectronicsSchool.jpg",
       "description": "Successfully implemented the 'Electronics at School' project across 3000+ schools in Kerala, impacting thousands of students."
@@ -461,7 +461,7 @@
       "id": "milestone_2010",
       "type": "milestone",
       "year": "2010",
-      "title": "Founder & CTO",
+      "title": "Founder & CTO of Robo Inventions",
       "icon": "rocket",
       "image": "/content/images/robo_inventions_logo.jpg",
       "description": "Founded Robo Inventions, focusing on developing innovative robotic solutions for industrial automation and IoT applications."
