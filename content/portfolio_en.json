@@ -181,7 +181,17 @@
         "Cloud"
       ],
       "image": "/content/images/Nlock.jfif",
-      "video": "https://www.youtube.com/embed/Lf72bwxSK34?si=AVngHR1rHk18lnki"
+      "video": "https://www.youtube.com/embed/Lf72bwxSK34?si=AVngHR1rHk18lnki",
+    "architecture": {
+        "url": [
+          "/content/images/Nlock1.jpeg",
+          "/content/images/Nlock2.jpeg",
+          "/content/images/Nlock3.jpeg",
+          "/content/images/Nlock4.jpeg",
+          "/content/images/Nlock5.jpeg"
+        ],
+        "description": "NLock First prototype"
+      }
     },
     {
       "id": "autonomous_robotic_carrier",
@@ -202,6 +212,7 @@
       "architecture": {
         "url": [
           "/content/images/ARC.jpeg",
+          "/content/images/ARC1.jpeg",
           "/content/images/ARC2.jpeg"
         ],
         "description": "ARC Concept"
@@ -229,7 +240,10 @@
       ],
       "image": "/content/images/Q-Stem.jpg",
       "architecture": {
-        "url": "/content/images/Q-Stem.jpg",
+        "url":[
+          "/content/images/Qstem1.jpeg",
+          "/content/images/Qstem2.jpeg"
+      ], 
         "description": "Q STEM kit with IoT connectivity"
       }
     },
