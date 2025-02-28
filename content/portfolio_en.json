@@ -145,6 +145,30 @@
       "description": "Appointed as the Director of Robotics at Simelabs, leading the development of cutting-edge robotics solutions for industrial automation."
     },
     {
+      "id": "ship_console",
+      "type": "project",
+      "title": "Marine Navigation Telemetry Console",
+      "description": "Developed an integrated telemetry system for ships to be monitored from ground control stations, optimize routes, reduce emissions, and ensure compliance, with a backup solution for network interruptions.",
+      "detailedOverview": "Designed and developed a control console for monitoring ship's telemetry data from ground control stations, integrated with the ship's navigation system. This telemetry system visualizes console data, predicts optimal routes, and tracks fuel consumption to reduce emissions, minimize the carbon footprint, and ensure compliance with environmental regulations and emission standards. Additionally, implemented a method to handle data during network outages, ensuring that data is stored locally and automatically backed up once connectivity is restored.",
+      "year": "2021",
+      "tech": [
+        "Python",
+        "JavaScript",
+        "Node.js",
+        "React",
+        "HMI",
+        "UI/UX",
+        "Telemetry",
+        "Navigation",
+        "Networking"
+      ],
+      "image": "/content/images/Ship_console.jpg",
+      "architecture": {
+        "url": "/content/images/Ship_console.jpg",
+        "description": "Ship Telemetry Control Console"
+      }
+    },
+    {
       "id": "nav_app",
       "type": "project",
       "title": "NavApp",
@@ -246,6 +270,14 @@
       ], 
         "description": "Q STEM kit with IoT connectivity"
       }
+    },
+    {
+      "id": "milestone_2019_Oct",
+      "type": "milestone",
+      "year": "2019 Oct",
+      "title": "Water Authority of Jordan",
+      "icon": "award",
+      "description": "Consulted with the Water Authority of Jordan, providing technology insights on automating water pumping processes in their pump stations. My recommendations focused on optimizing water pressure, saving water, and integrating IoT and OT systems for enhanced operational efficiency. Additionally, I offered key insights into optimizing waste collection and street lighting using IoT solutions, aiming to drive sustainability and improve urban management."
     },
     {
       "id": "robotics_park_concept_note",
