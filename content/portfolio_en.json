@@ -147,7 +147,7 @@
     {
       "id": "ship_console",
       "type": "project",
-      "title": "Marine Navigation Telemetry Console",
+      "title": "Maritime Navigation Telemetry Console",
       "description": "Developed an integrated telemetry system for ships to be monitored from ground control stations, optimize routes, reduce emissions, and ensure compliance, with a backup solution for network interruptions.",
       "detailedOverview": "Designed and developed a control console for monitoring ship's telemetry data from ground control stations, integrated with the ship's navigation system. This telemetry system visualizes console data, predicts optimal routes, and tracks fuel consumption to reduce emissions, minimize the carbon footprint, and ensure compliance with environmental regulations and emission standards. Additionally, implemented a method to handle data during network outages, ensuring that data is stored locally and automatically backed up once connectivity is restored.",
       "year": "2021",
