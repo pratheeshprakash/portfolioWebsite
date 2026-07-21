@@ -1,9 +1,13 @@
 {
   "personal": {
     "name": "Pratheesh Prakash",
-    "title": "Robotics & Embedded Systems Engineer",
+    "title": "Autonomous Robotics Systems Architect",
     "easterEgg": "Possess the innate ability to transform Challenges to Solutions",
-    "summary": "I am a Senior Autonomous Control Systems Engineer with over decade and a half of experience in full-stack robotics development. My expertise spans across both software and hardware for robots, drones, and IoT, utilizing technologies like ROS, Python, C, and C++.\n\nI specialize in mission-planners, rapid prototyping, product development, and mechanical & electronic design. I have a proven track record in leading multi-disciplinary teams, solving complex engineering challenges, and building Autonomous Mobile Robots (AMRs) and drones. With a solid foundation in mechatronics, software design, and digital manufacturing, I ensure the efficient use of resources and timely project completion.",
+    "summary": "I am a Senior Autonomous Systems Architect with over a decade and a half of experience in full-stack robotics development. My expertise spans across both software and hardware for robots, drones, and IoT, utilizing technologies like ROS, Python, C, and C++.\n\nI specialize in mission-planners, rapid prototyping, product development, and mechanical & electronic design. I have a proven track record in leading multi-disciplinary teams, solving complex engineering challenges, and building Autonomous Mobile Robots (AMRs) and drones. With a solid foundation in mechatronics, software design, and digital manufacturing, I ensure the efficient use of resources and timely project completion.",
+    "tagline": "From silicon to autonomy - I build robotics & IoT systems that work in the real world.",
+    "location": "Sønderborg, Denmark",
+    "openToRemote": true,
+    "cvUrl": "/content/Pratheesh_CV_Autonomous_Robotics_Systems_Architect.pdf",
     "quote": "Driven by passion, innovation, and a relentless pursuit of progress, I strive to create solutions that redefine possibilities in embedded, IoT and Robotics",
     "contact": {
       "email": "pratheeshprakash@gmail.com",
@@ -38,8 +42,117 @@
     "getInTouch": "Get in Touch",
     "overview": "Overview",
     "technologies": "Technologies",
-    "architecture": ""
+    "architecture": "",
+    "about": "About",
+    "featuredWork": "Featured Systems",
+    "skills": "Expertise",
+    "achievements": "Recognition",
+    "collaboration": "Collaboration"
   },
+  "about": {
+    "paragraph1": "I am an Autonomous Robotics Systems Architect with more than one and a half decades of end-to-end product development experience spanning robotics, embedded devices, and industrial IoT. My engineering philosophy centers on bridging the gap between hardware constraints and software intelligence to build reliable, real-world systems.",
+    "paragraph2": "Throughout my career, I've had the privilege of founding a robotics company, leading engineering departments, and designing safety-critical systems for international leaders like Danfoss. I specialize in custom AMR kinematics, control systems, RTOS firmware development, and interactive HIL web visualization stacks.",
+    "paragraph3": "Beyond engineering, I am passionate about nurturing the hardware community. I spearheaded the 'Electronics @ School' project, deploying custom analog education kits to 3,000+ schools, and continue to support deep-tech startups as a fractional advisor and team mentor."
+  },
+  "socialProof": [
+    {
+      "value": "15+",
+      "label": "Years in Industry"
+    },
+    {
+      "value": "3,000+",
+      "label": "Schools Impacted"
+    },
+    {
+      "value": "40 Under 40",
+      "label": "National Award"
+    },
+    {
+      "value": "IEEE",
+      "label": "Published Author"
+    }
+  ],
+  "collaboration": {
+    "heading": "Technical Advisory & Team Mentorship",
+    "description": "I collaborate selectively with engineering teams and deep-tech startups to resolve complex hurdles and accelerate development.",
+    "areas": [
+      {
+        "title": "System Architecture Review",
+        "description": "Evaluating robotics stacks, sensors (Lidar/Radar fusion), and hardware-software communication paths to eliminate latency and architectural bottlenecks."
+      },
+      {
+        "title": "Hardware Debugging & HIL Setup",
+        "description": "Mentoring teams stuck on physical board issues, motor driver noise, or setting up reliable Hardware-in-the-Loop simulation environments."
+      },
+      {
+        "title": "Kinematics & Control Algorithms",
+        "description": "Assisting with differential drive, holonomic movement kinematics, path planning tuning (Nav2/ROS), and custom motor control loops."
+      }
+    ]
+  },
+  "skills": {
+    "robotics": [
+      "ROS / ROS2",
+      "SLAM Navigation",
+      "Motion Planning",
+      "Kinematics",
+      "SIL / HIL Testing",
+      "Gazebo / RViz Sim",
+      "URDF Modeling",
+      "Sensor Fusion",
+      "LiDAR Safety Fields"
+    ],
+    "software": [
+      "C++ (C++14/17)",
+      "Python",
+      "JavaScript / Node.js",
+      "React.js",
+      "WebSockets / MQTT",
+      "CI/CD & Docker",
+      "DevOps & Cloud Builds"
+    ],
+    "embedded": [
+      "STM32 / ESP32 / Atmega",
+      "RTOS (FreeRTOS)",
+      "PCB Design (KiCad/Eagle)",
+      "SPI / I2C / UART / CAN",
+      "Analog Electronics",
+      "Rapid Prototyping"
+    ],
+    "leadership": [
+      "Cross-functional Team Lead",
+      "Stakeholder Management",
+      "Vendor & DFM Coordination",
+      "Technical Writing & Advisory",
+      "Curriculum Design"
+    ]
+  },
+  "achievements": [
+    {
+      "title": "40 Under 40 Award",
+      "issuer": "The New Indian Express",
+      "year": "2018",
+      "description": "Honored as one of the top 40 young innovators under 40 in India for pioneering work in robotics education and development."
+    },
+    {
+      "title": "IEEE Published Researcher",
+      "issuer": "IEEE",
+      "year": "2022",
+      "description": "Co-authored and published 'A Study on Intuitive Interaction between Mobile Robots and Humans' detailing HMI design paradigms."
+    },
+    {
+      "title": "Electronics @ School",
+      "issuer": "Kerala IT Mission",
+      "year": "2015",
+      "description": "Spearheaded the design, DFM, and distribution of 3,700+ DIY STEM kits to over 3,000 schools across Kerala, training 1,200+ teachers."
+    },
+    {
+      "title": "IoT and Technical Consultant",
+      "issuer": "Water Authority of Jordan",
+      "year": "2019",
+      "description": "Consulted on water pump station automation, integrating IoT systems to optimize pressure control and improve operational efficiency."
+    }
+  ],
   "contact": {
     "name": "Name",
     "email": "Email",
@@ -50,6 +163,47 @@
     "error": "Sorry, something went wrong. Please try again later."
   },
   "timeline": [
+    {
+      "id": "amr_safety_zone_generator",
+      "type": "project",
+      "title": "Automated Safety-Zone Generator",
+      "year": "2025",
+      "description": "Developed an automated tool that uses robot URDF models to calculate dynamic safety zones for LiDAR systems, reducing configuration effort from months to hours.",
+      "detailedOverview": "Designed and developed an automated dynamic safety-field calculator utilizing robot URDF models to configure safety LiDAR fields for autonomous mobile robots (AMRs). The tool parses the physical dimensions and kinematic limits of the robot from URDF files and computes optimized safety zones dynamically, transforming what was previously a tedious manual process that took months of work into an automated execution completed in a matter of hours. This greatly improved system safety reliability, and dramatically accelerated deployment velocity on client sites.",
+      "image": "/content/images/dynamic_safety_fields.png",
+      "tech": [
+        "LiDAR Safety Fields",
+        "URDF Modeling",
+        "Kinematics",
+        "Python",
+        "Automation Tooling"
+      ]
+    },
+    {
+      "id": "robotics_sil_hil_platform",
+      "type": "project",
+      "title": "SIL & HIL Simulation Platform",
+      "year": "2025",
+      "description": "Created high-fidelity SIL and HIL simulation frameworks alongside Safety PLC and battery emulators to validate robotics software without physical hardware.",
+      "detailedOverview": "Architected and built robust Software-in-the-Loop (SIL) and Hardware-in-the-Loop (HIL) testing frameworks to run virtualized integration testing of our autonomous mobile robots. Designed and implemented custom emulators for Safety PLCs and battery management systems with graphical web-based visualization interfaces. This enabled the software engineering team to run end-to-end software validation, kinematics behavioral verification, and integration testing on high-fidelity simulation environments prior to physical hardware availability, saving substantial R&D testing hours and identifying bugs early.",
+      "image": "/content/images/hil_sil_simulation.png",
+      "tech": [
+        "SIL / HIL Testing",
+        "Safety PLC Emulator",
+        "Gazebo / RViz Sim",
+        "Python",
+        "React",
+        "WebSockets"
+      ]
+    },
+    {
+      "id": "milestone_tmrc",
+      "type": "milestone",
+      "year": "2025",
+      "title": "Joined The Mobile Robot Company",
+      "icon": "rocket",
+      "description": "Appointed as Lead Robotics Engineer at The Mobile Robot Company (TMRC) in Copenhagen, driving platform engineering, DevOps infrastructure, and HIL/SIL testing frameworks."
+    },
     {
       "id": "autonomous_systems_dashboard",
       "type": "project",
@@ -133,7 +287,7 @@
         "Rviz",
         "Robotic Arm"
       ],
-      "image": "/content/images/SmartDose.jfif"      
+      "image": "/content/images/SmartDose.jfif"
     },
     {
       "id": "milestone_2021",
@@ -205,7 +359,7 @@
       ],
       "image": "/content/images/Nlock.jfif",
       "video": "https://www.youtube.com/embed/Lf72bwxSK34?si=AVngHR1rHk18lnki",
-    "architecture": {
+      "architecture": {
         "url": [
           "/content/images/Nlock1.jpeg",
           "/content/images/Nlock2.jpeg",
@@ -263,10 +417,10 @@
       ],
       "image": "/content/images/Q-Stem.jpg",
       "architecture": {
-        "url":[
+        "url": [
           "/content/images/Qstem1.jpeg",
           "/content/images/Qstem2.jpeg"
-      ], 
+        ],
         "description": "Q STEM kit with IoT connectivity"
       }
     },
@@ -549,21 +703,17 @@
       "control systems engineer",
       "autonomous control systems engineer",
       "motion planning engineer",
-      
       "senior robotics engineer",
       "senior control systems engineer",
       "senior autonomous control systems engineer",
       "senior motions planning engineer",
-
       "principal robotics engineer",
       "principal control systems engineer",
       "principal autonomous control systems engineer",
       "principal motion planning engineer",
-      
       "robotics",
       "embedded systems",
       "hardware design",
-
       "engineering portfolio",
       "robotics portfolio",
       "embedded systems portfolio"
