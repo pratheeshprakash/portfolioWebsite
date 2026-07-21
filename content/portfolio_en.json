@@ -8,6 +8,7 @@
     "location": "Sønderborg, Denmark",
     "openToRemote": true,
     "cvUrl": "/content/Pratheesh_CV_Autonomous_Robotics_Systems_Architect.pdf",
+    "headshotUrl": "/content/images/head_shot.jpg",
     "quote": "Driven by passion, innovation, and a relentless pursuit of progress, I strive to create solutions that redefine possibilities in embedded, IoT and Robotics",
     "contact": {
       "email": "pratheeshprakash@gmail.com",
@@ -100,7 +101,9 @@
       "Gazebo / RViz Sim",
       "URDF Modeling",
       "Sensor Fusion",
-      "LiDAR Safety Fields"
+      "LiDAR Safety Fields",
+      "Multirotor Dynamics",
+      "Flight Control Systems"
     ],
     "software": [
       "C++ (C++14/17)",
@@ -117,7 +120,8 @@
       "PCB Design (KiCad/Eagle)",
       "SPI / I2C / UART / CAN",
       "Analog Electronics",
-      "Rapid Prototyping"
+      "Rapid Prototyping",
+      "Flight Controller HW Design"
     ],
     "leadership": [
       "Cross-functional Team Lead",
@@ -594,13 +598,31 @@
       "description": "Successfully implemented the 'Electronics at School' project across 3000+ schools in Kerala, impacting thousands of students."
     },
     {
+      "id": "drone_flight_controller",
+      "type": "project",
+      "title": "Custom Multirotor Flight Controller",
+      "year": "2014",
+      "description": "Designed and developed a custom drone flight controller board with integrated IMU, barometer, and GPS, applying deep knowledge of multirotor dynamics, PID tuning, and motor mixing algorithms.",
+      "detailedOverview": "Designed and developed a custom flight controller board for multirotor drones, encompassing full schematic design, PCB layout, and embedded firmware development from the ground up. The board integrated an IMU (accelerometer and gyroscope) for attitude estimation, a barometer for altitude hold, GPS module for position hold and waypoint navigation, and PWM/ESC signal outputs supporting various multirotor configurations.\n\nDeveloped low-level firmware implementing sensor fusion algorithms (complementary and Kalman filtering) for robust attitude estimation, cascaded PID-based stabilization loops for roll, pitch, yaw, and throttle control, and configurable motor mixing matrices supporting quadcopter, hexacopter, and octocopter frame geometries. Applied deep understanding of multirotor dynamics including thrust vectoring, rotor aerodynamics, yaw-pitch-roll coupling effects, and propeller torque compensation to achieve stable and responsive flight characteristics.\n\nThe controller was validated through iterative bench testing on a custom test rig followed by extensive flight testing across multiple airframe configurations, progressively tuning the control loops for different payload and environmental conditions.",
+      "tech": [
+        "PCB Design",
+        "Embedded C",
+        "IMU Sensor Fusion",
+        "PID Control",
+        "Multirotor Dynamics",
+        "ESC / BLDC Motors",
+        "GPS Navigation",
+        "Kalman Filter"
+      ]
+    },
+    {
       "id": "milestone_2014",
       "type": "milestone",
       "year": "2014",
-      "title": "Drone demo",
+      "title": "Drone Flight Demo at GITAM University",
       "icon": "send",
       "video": "https://www.youtube.com/embed/UWRlwF4592g?si=XVzADQqDz2Jhgx4c",
-      "description": "Conducted a drone demo at GITAM university, showcasing the capabilities of drones and their applications in various industries."
+      "description": "Demonstrated a custom-built multirotor drone at GITAM University, showcasing the in-house designed flight controller board and stable flight characteristics achieved through custom PID tuning and sensor fusion firmware. The demo highlighted practical applications of drones in surveillance, mapping, and industrial inspection."
     },
     {
       "id": "induino_x",
@@ -716,7 +738,13 @@
       "hardware design",
       "engineering portfolio",
       "robotics portfolio",
-      "embedded systems portfolio"
+      "embedded systems portfolio",
+      "drone engineer",
+      "UAV systems engineer",
+      "multirotor dynamics",
+      "flight controller design",
+      "drone control systems",
+      "aerial robotics"
     ]
   }
 }
